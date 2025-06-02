@@ -1,11 +1,21 @@
-.env
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-env/
+
+# Environment files
+.env
+
+# Virtual environments
 venv/
-*.db
-*.log
-*.sqlite3
+env/
+
+# Docker volumes
+mysql_data/
+
+# Editor settings
+.vscode/
+.idea/
+
+# System files
 .DS_Store
+Thumbs.db
