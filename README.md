@@ -48,13 +48,13 @@ You should see:
 [
   {
     "id": 1,
-    "name": "Alice",
-    "email": "alice@example.com"
+    "name": "yakov",
+    "email": "yakov$@walla.com"
   },
   {
     "id": 2,
-    "name": "Bob",
-    "email": "bob@example.com"
+    "name": "moshe",
+    "email": "moshe*@yahoo.com"
   }
 ]
 ```

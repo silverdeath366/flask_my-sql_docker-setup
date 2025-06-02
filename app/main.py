@@ -22,11 +22,11 @@ def get_db_connection():
 
 @app.route('/')
 def home():
-    return '🎉 Flask is running and connected to MySQL!'
+    return 'Flask is running and connected to MySQL!'
 
 @app.route('/users')
 def list_users():
-    conn = None  # ✅ define it first
+    conn = None  
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
